@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_corner_with_dropshadow"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:id="@+id/customAlertDialogTitle"
+        android:paddingTop="20dp"
+        android:text="Title goes here"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/customAlertDialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="Title goes here but here the message is supossed to be present"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@color/grey_drawer_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/customAlertDialogPositiveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:textSize="14sp"
+            android:text="POSITIVE"
+            android:textColor="@color/blue_color" />
+
+        <View
+	        android:id="@+id/customAlertDialogPositiveBorder"
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@color/grey_drawer_divider" />
+
+        <Button
+            android:id="@+id/customAlertDialogNeutralButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:text="NEUTRAL"
+            android:textColor="@color/blue_color" />
+
+        <View
+            android:id="@+id/customAlertDialogNeutralBorder"
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@color/grey_drawer_divider" />
+
+        <Button
+            android:id="@+id/customAlertDialogNegativeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:background="#FFFFFF"
+            android:text="NEGATIVE"
+            android:textColor="@color/blue_color" />
+    </LinearLayout>
+
+</LinearLayout>

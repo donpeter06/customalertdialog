@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<color name="white_color" >#FFFFFF</color>
+	<color name="grey_color">#E9E9E9</color>
+	<color name="grey_text_color">#808080</color>
+	<color name="red_color">#ED1E79</color>
+	<color name="grey_button">#E6E6E6</color>
+	<color name="blue_color">#29ABE2</color>    
+	<color name="logout_color_code">#c1272d</color>
+	<color name="user_name_font_color">#5d5d5d</color>
+	<color name="grey_profile_drawer">#333333</color>
+	<color name="grey_drawer_background">#F2F2F2</color>
+	<color name="grey_drawer_divider">#CCCCCC</color>
+	<color name="settings_email_label_color">#B3B3B3</color>
+	<color name="cancel_button">#000000</color>
+    
+</resources>
